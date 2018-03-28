@@ -1,0 +1,23 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 100%;
+  padding-top: 4.5rem;
+  background-color: #5cb85c;
+}
+
+.fixed {
+  position: fixed;
+  top: 44px;
+  color: white;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: 1px solid white;
+  z-index: 20;
+}
+
+.fixed_header{
+  z-index: 20;
+}
